@@ -1,0 +1,28 @@
+{
+  "name": "@jagadishs-oss/skillcraft",
+  "version": "0.1.0",
+  "description": "Install a Codex hook that learns from completed runs and improves existing skills.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jagadishs-oss/skillcraft.git"
+  },
+  "license": "UNLICENSED",
+  "bin": {
+    "skillcraft": "./dist/cli.cjs"
+  },
+  "files": [
+    "dist/cli.cjs",
+    "skills/learn-from-run/SKILL.md"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepack": "npm run build"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.7",
+    "typescript": "^6.0.3"
+  }
+}
