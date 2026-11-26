@@ -16,10 +16,10 @@ From GitHub, use `npx skills add jagadishs-oss/skillcraft --skill learn-from-run
 
 Skillcraft's npm CLI registers a user-level Codex `Stop` hook on macOS and Linux. It requires Node.js 22 or newer. Choose the directory containing the canonical skill sources you want the agent to update.
 
-After the package is published to npm:
+Install from npm:
 
 ```sh
-npx @jagadishs-oss/skillcraft install --skills-root /path/to/repo/skills
+npx @jagadish-oss/skillcraft install --skills-root /path/to/repo/skills
 ```
 
 To install the CLI directly from GitHub:

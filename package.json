@@ -1,5 +1,5 @@
 {
-  "name": "@jagadishs-oss/skillcraft",
+  "name": "@jagadish-oss/skillcraft",
   "version": "0.1.0",
   "description": "Install a Codex hook that learns from completed runs and improves existing skills.",
   "repository": {
@@ -8,7 +8,7 @@
   },
   "license": "UNLICENSED",
   "bin": {
-    "skillcraft": "./dist/cli.cjs"
+    "skillcraft": "dist/cli.cjs"
   },
   "files": [
     "dist/cli.cjs",
