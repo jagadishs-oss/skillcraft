@@ -1,6 +1,7 @@
 ---
 name: learn-from-run
 description: Improves an existing agent skill using evidence from a completed run. Use during a post-run learning pass or when asked to fix skill instructions that caused a repeated failure, unnecessary retry, workaround, or skipped step.
+license: MIT
 ---
 
 # Learn from a run

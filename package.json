@@ -1,12 +1,12 @@
 {
   "name": "@jagadish-oss/skillcraft",
-  "version": "0.1.0",
-  "description": "Install a Codex hook that learns from completed runs and improves existing skills.",
+  "version": "0.1.1",
+  "description": "Open-source skills and tools for improving AI agents. Includes the Skillcraft Codex installer.",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jagadishs-oss/skillcraft.git"
   },
-  "license": "UNLICENSED",
+  "license": "MIT",
   "bin": {
     "skillcraft": "dist/cli.cjs"
   },
